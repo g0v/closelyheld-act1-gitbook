@@ -1,0 +1,142 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '-g',
+1 verbose cli   'json-ascii',
+1 verbose cli   'ascii-json' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'json-ascii', null ]
+5 verbose cache add name=undefined spec="json-ascii" args=["json-ascii",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'json-ascii',
+6 verbose parsed url   path: 'json-ascii',
+6 verbose parsed url   href: 'json-ascii' }
+7 verbose cache add [ 'ascii-json', null ]
+8 verbose cache add name=undefined spec="ascii-json" args=["ascii-json",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'ascii-json',
+9 verbose parsed url   path: 'ascii-json',
+9 verbose parsed url   href: 'ascii-json' }
+10 silly lockFile ea7df1ec-json-ascii json-ascii
+11 verbose lock json-ascii /Users/audreyt/.npm/ea7df1ec-json-ascii.lock
+12 silly lockFile c1d3e7fe-ascii-json ascii-json
+13 verbose lock ascii-json /Users/audreyt/.npm/c1d3e7fe-ascii-json.lock
+14 silly lockFile c1d3e7fe-ascii-json ascii-json
+15 silly lockFile c1d3e7fe-ascii-json ascii-json
+16 silly lockFile ea7df1ec-json-ascii json-ascii
+17 silly lockFile ea7df1ec-json-ascii json-ascii
+18 verbose addNamed [ 'ascii-json', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile d9f65896-ascii-json ascii-json@
+21 verbose lock ascii-json@ /Users/audreyt/.npm/d9f65896-ascii-json.lock
+22 verbose addNamed [ 'json-ascii', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 3c379cf5-json-ascii json-ascii@
+25 verbose lock json-ascii@ /Users/audreyt/.npm/3c379cf5-json-ascii.lock
+26 silly addNameRange { name: 'ascii-json', range: '*', hasData: false }
+27 silly addNameRange { name: 'json-ascii', range: '*', hasData: false }
+28 verbose request where is /json-ascii
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 82732dabefbcef1a
+31 verbose url raw /json-ascii
+32 verbose url resolving [ 'https://registry.npmjs.org/', './json-ascii' ]
+33 verbose url resolved https://registry.npmjs.org/json-ascii
+34 verbose request where is https://registry.npmjs.org/json-ascii
+35 info trying registry request attempt 1 at 11:13:17
+36 http GET https://registry.npmjs.org/json-ascii
+37 verbose request where is /ascii-json
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /ascii-json
+40 verbose url resolving [ 'https://registry.npmjs.org/', './ascii-json' ]
+41 verbose url resolved https://registry.npmjs.org/ascii-json
+42 verbose request where is https://registry.npmjs.org/ascii-json
+43 info trying registry request attempt 1 at 11:13:17
+44 verbose etag "9UCQXKGQDLI29AXPODS0IJAKJ"
+45 http GET https://registry.npmjs.org/ascii-json
+46 http 304 https://registry.npmjs.org/ascii-json
+47 silly registry.get cb [ 304,
+47 silly registry.get   { date: 'Fri, 01 May 2015 03:13:16 GMT',
+47 silly registry.get     via: '1.1 varnish',
+47 silly registry.get     'last-modified': 'Fri, 01 May 2015 03:13:17 GMT',
+47 silly registry.get     'cache-control': 'max-age=60',
+47 silly registry.get     etag: '"9UCQXKGQDLI29AXPODS0IJAKJ"',
+47 silly registry.get     age: '0',
+47 silly registry.get     connection: 'keep-alive',
+47 silly registry.get     'x-served-by': 'cache-nrt6122-NRT',
+47 silly registry.get     'x-cache': 'MISS',
+47 silly registry.get     'x-cache-hits': '0',
+47 silly registry.get     'x-timer': 'S1430449996.920898,VS0,VE425',
+47 silly registry.get     vary: 'Accept' } ]
+48 verbose etag https://registry.npmjs.org/ascii-json from cache
+49 http 404 https://registry.npmjs.org/json-ascii
+50 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+50 verbose headers   'content-type': 'application/json',
+50 verbose headers   'cache-control': 'max-age=0',
+50 verbose headers   'content-length': '51',
+50 verbose headers   'accept-ranges': 'bytes',
+50 verbose headers   date: 'Fri, 01 May 2015 03:13:17 GMT',
+50 verbose headers   via: '1.1 varnish',
+50 verbose headers   age: '0',
+50 verbose headers   connection: 'keep-alive',
+50 verbose headers   'x-served-by': 'cache-nrt6126-NRT',
+50 verbose headers   'x-cache': 'MISS',
+50 verbose headers   'x-cache-hits': '0',
+50 verbose headers   'x-timer': 'S1430449996.921902,VS0,VE744' }
+51 silly registry.get cb [ 404,
+51 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+51 silly registry.get     'content-type': 'application/json',
+51 silly registry.get     'cache-control': 'max-age=0',
+51 silly registry.get     'content-length': '51',
+51 silly registry.get     'accept-ranges': 'bytes',
+51 silly registry.get     date: 'Fri, 01 May 2015 03:13:17 GMT',
+51 silly registry.get     via: '1.1 varnish',
+51 silly registry.get     age: '0',
+51 silly registry.get     connection: 'keep-alive',
+51 silly registry.get     'x-served-by': 'cache-nrt6126-NRT',
+51 silly registry.get     'x-cache': 'MISS',
+51 silly registry.get     'x-cache-hits': '0',
+51 silly registry.get     'x-timer': 'S1430449996.921902,VS0,VE744' } ]
+52 silly lockFile 3c379cf5-json-ascii json-ascii@
+53 silly lockFile 3c379cf5-json-ascii json-ascii@
+54 silly addNameRange number 2 { name: 'ascii-json', range: '*', hasData: true }
+55 silly addNameRange versions [ 'ascii-json', [ '0.1.0', '0.1.1', '0.2.0' ] ]
+56 verbose addNamed [ 'ascii-json', '0.2.0' ]
+57 verbose addNamed [ '0.2.0', '0.2.0' ]
+58 silly lockFile 1a325e02-ascii-json-0-2-0 ascii-json@0.2.0
+59 verbose lock ascii-json@0.2.0 /Users/audreyt/.npm/1a325e02-ascii-json-0-2-0.lock
+60 silly lockFile 1a325e02-ascii-json-0-2-0 ascii-json@0.2.0
+61 silly lockFile 1a325e02-ascii-json-0-2-0 ascii-json@0.2.0
+62 silly lockFile d9f65896-ascii-json ascii-json@
+63 silly lockFile d9f65896-ascii-json ascii-json@
+64 error 404 404 Not Found: json-ascii
+64 error 404
+64 error 404 'json-ascii' is not in the npm registry.
+64 error 404 You should bug the author to publish it
+64 error 404
+64 error 404 Note that you can also install from a
+64 error 404 tarball, folder, or http url, or git url.
+65 error System Darwin 14.4.0
+66 error command "node" "/usr/local/bin/npm" "i" "-g" "json-ascii" "ascii-json"
+67 error cwd /Users/audreyt/v/closelyheld-act1-gitbook
+68 error node -v v0.10.32
+69 error npm -v 1.4.28
+70 error code E404
+71 verbose exit [ 1, true ]
